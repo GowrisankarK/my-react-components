@@ -1,0 +1,40 @@
+{
+  "Enter product names...": {
+    "translation": "製品名を入力...",
+    "origin": [
+      [
+        "src/index.js",
+        928
+      ]
+    ]
+  },
+  "productNotAvailable": {
+    "translation": "製品が見つかりませんでした。検索を再試行して、表示されるオプションから選択してください。さらにサポートが必要な場合は、<0>サポートにお問い合わせ</0>ください。",
+    "defaults": "We couldn't find that product. Please try your search again and choose from the options provided. For more help, <0>contact support</0>.",
+    "origin": [
+      [
+        "src/index.js",
+        1048
+      ]
+    ]
+  },
+  "typeaheadTitle": {
+    "translation": "どの製品をお探しですか？",
+    "defaults": "For Which Product do you need a key?",
+    "origin": [
+      [
+        "src/index.js",
+        918
+      ]
+    ]
+  },
+  "viewAvailDownloads": {
+    "translation": "ダウンロード可能な製品を表示",
+    "origin": [
+      [
+        "src/index.js",
+        866
+      ]
+    ]
+  }
+}

@@ -3,36 +3,77 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.1",
+    "@babel/parser": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
+    "@babel/plugin-proposal-optional-chaining": "^7.13.12",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/plugin-transform-destructuring": "^7.10.1",
+    "@babel/plugin-transform-modules-commonjs": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "@storybook/addon-actions": "6.2.3",
+    "@storybook/addon-controls": "^6.2.7",
+    "@storybook/addon-knobs": "6.2.3",
+    "@storybook/addon-links": "6.2.3",
+    "@storybook/addon-notes": "5.3.21",
+    "@storybook/addons": "6.2.3",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "@storybook/react": "6.2.3",
+    "@storybook/storybook-deployer": "^2.8.7",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "event-source-polyfill": "^1.0.24",
+    "@lingui/macro": "^2.9.1",
+    "proxy-polyfill": "0.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "storybook-readme": "5.0.9",
+    "web-vitals": "^1.0.1",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-file-loader": "^1.1.1",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      },
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/node-logger": "^6.2.9"
   }
 }

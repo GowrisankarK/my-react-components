@@ -1,0 +1,40 @@
+{
+  "Enter product names...": {
+    "translation": "输入产品名称...",
+    "origin": [
+      [
+        "src/index.js",
+        928
+      ]
+    ]
+  },
+  "productNotAvailable": {
+    "translation": "我们找不到该产品。请再次尝试搜索，然后从提供的选项中进行选择。要获得更多帮助，请<0>联系支持人员</0>。",
+    "defaults": "We couldn't find that product. Please try your search again and choose from the options provided. For more help, <0>contact support</0>.",
+    "origin": [
+      [
+        "src/index.js",
+        1048
+      ]
+    ]
+  },
+  "typeaheadTitle": {
+    "translation": "您在寻找什么产品？",
+    "defaults": "For Which Product do you need a key?",
+    "origin": [
+      [
+        "src/index.js",
+        918
+      ]
+    ]
+  },
+  "viewAvailDownloads": {
+    "translation": "查看可用下载",
+    "origin": [
+      [
+        "src/index.js",
+        866
+      ]
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Enter product names...": {
+    "translation": "Zadejte názvy produktů...",
+    "origin": [
+      [
+        "src/index.js",
+        928
+      ]
+    ]
+  },
+  "productNotAvailable": {
+    "translation": "Tento produkt jsme nenašli. Zkuste prosím hledat znovu a vyberte si z nabízených možností. Pokud potřebujete další pomoc, <0> kontaktujte podporu </0>.",
+    "defaults": "We couldn't find that product. Please try your search again and choose from the options provided. For more help, <0>contact support</0>.",
+    "origin": [
+      [
+        "src/index.js",
+        1048
+      ]
+    ]
+  },
+  "typeaheadTitle": {
+    "translation": "Který produkt hledáte?",
+    "defaults": "For Which Product do you need a key?",
+    "origin": [
+      [
+        "src/index.js",
+        918
+      ]
+    ]
+  },
+  "viewAvailDownloads": {
+    "translation": "Zobrazit dostupné stahované položky",
+    "origin": [
+      [
+        "src/index.js",
+        866
+      ]
+    ]
+  }
+}

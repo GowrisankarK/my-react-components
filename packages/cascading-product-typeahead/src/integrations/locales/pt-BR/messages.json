@@ -1,0 +1,40 @@
+{
+  "Enter product names...": {
+    "translation": "Digite os nomes dos produtos...",
+    "origin": [
+      [
+        "src/index.js",
+        928
+      ]
+    ]
+  },
+  "productNotAvailable": {
+    "translation": "Não foi possível localizar o produto. Tente pesquisar novamente e escolha entre as opções fornecidas. Para obter mais ajuda, <0>entre em contato com o suporte</0>.",
+    "defaults": "We couldn't find that product. Please try your search again and choose from the options provided. For more help, <0>contact support</0>.",
+    "origin": [
+      [
+        "src/index.js",
+        1048
+      ]
+    ]
+  },
+  "typeaheadTitle": {
+    "translation": "O que você está procurando?",
+    "defaults": "For Which Product do you need a key?",
+    "origin": [
+      [
+        "src/index.js",
+        918
+      ]
+    ]
+  },
+  "viewAvailDownloads": {
+    "translation": "Visualizar downloads disponíveis",
+    "origin": [
+      [
+        "src/index.js",
+        866
+      ]
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Enter product names...": {
+    "translation": "Adja meg a termékneveket...",
+    "origin": [
+      [
+        "src/index.js",
+        928
+      ]
+    ]
+  },
+  "productNotAvailable": {
+    "translation": "Nem találtuk meg azt a terméket. Kérjük, próbálja újra a keresést, és válasszon a rendelkezésre álló lehetőségek közül. További segítségért <0> vegye fel a kapcsolatot az ügyfélszolgálattal </0>.",
+    "defaults": "We couldn't find that product. Please try your search again and choose from the options provided. For more help, <0>contact support</0>.",
+    "origin": [
+      [
+        "src/index.js",
+        1048
+      ]
+    ]
+  },
+  "typeaheadTitle": {
+    "translation": "Melyik terméket keresi?",
+    "defaults": "For Which Product do you need a key?",
+    "origin": [
+      [
+        "src/index.js",
+        918
+      ]
+    ]
+  },
+  "viewAvailDownloads": {
+    "translation": "A rendelkezésre álló letöltések megtekintése",
+    "origin": [
+      [
+        "src/index.js",
+        866
+      ]
+    ]
+  }
+}

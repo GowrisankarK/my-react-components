@@ -1,0 +1,41 @@
+{
+  "name": "cascading-sequence-product-typeahead",
+  "version": "1.0.2",
+  "description": "Cascading sequence product typeahead",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "files": [
+    "src/*",
+    "package.json",
+    "Readme.md"
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "@hig/input": "^1.2.0",
+    "@hig/label": "^1.1.0",
+    "@hig/progress-ring": "^1.1.0",
+    "@hig/theme-context": "^3.0.0",
+    "@hig/theme-data": "^2.16.1",
+    "@lingui/macro": "^2.8.3",
+    "@lingui/react": "^2.8.3",
+    "babel-loader": "^8.0.6",
+    "html-entities": "^2.0.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "4.0.3",
+    "styled-components": "4.3.2",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist --ignore '**/*.spec.js,**/*.stories.js'",
+    "add-locale": "lingui add-locale",
+    "extract": "lingui extract",
+    "compile": "lingui compile"
+  },
+  "author": "Gowri Sanakar",
+  "license": "Apache-2.0"
+}
